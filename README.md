@@ -25,6 +25,12 @@ sudo apt install git -y
 curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash -
 sudo apt install -y nodejs
 sudo npm install -g pm2
+
+curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash -
+sudo apt-get install -y nodejs
+sudo npm i -g pm2@latest
+pm2 -v && node -v && npm -v
+
 ```
 
 # Setup project folder
